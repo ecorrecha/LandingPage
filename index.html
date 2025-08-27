@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Ilustrador Digital</title>
+  <style>
+    /* ===== Reset ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #0e0e0e;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: #111;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      color: #a259ff;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav a {
+      color: #fff;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #a259ff;
+    }
+
+    /* ===== Hero ===== */
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #a259ff;
+      margin-bottom: 20px;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #ccc;
+      max-width: 600px;
+    }
+
+    /* ===== Secciones ===== */
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #a259ff;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+
+    .skills, .services, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1b1b1b;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      background: #272727;
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header>
+    <h1>Mi Portafolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <img src="20548064_6317757.jpg" alt="Mi foto">
+    <h2>Hola, soy un Ilustrador Digital</h2>
+    <p>Artista tradicional y jugador de voleibol. Estoy dando mis primeros pasos en el mundo de la ilustración digital y el diseño creativo.</p>
+  </section>
+
+  <!-- ===== Sobre mí ===== -->
+  <section id="about">
+    <h2>Sobre mí</h2>
+    <p>
+      Soy un ilustrador digital principiante apasionado por el arte y el diseño. 
+      También me gusta explorar el arte tradicional, lo que me da una base sólida 
+      para mis creaciones digitales. Además, el voleibol es otra de mis pasiones: 
+      el deporte me inspira a trabajar en equipo y dar siempre lo mejor de mí.
+    </p>
+  </section>
+
+  <!-- ===== Habilidades ===== -->
+  <section id="skills">
+    <h2>Habilidades</h2>
+    <div class="skills">
+      <div class="card">Ilustración Digital</div>
+      <div class="card">Dibujo Tradicional</div>
+      <div class="card">Creatividad & Composición</div>
+      <div class="card">Trabajo en Equipo (Voleibol)</div>
+    </div>
+  </section>
+
+  <!-- ===== Servicios ===== -->
+  <section id="services">
+    <h2>Servicios</h2>
+    <div class="services">
+      <div class="card">Ilustraciones personalizadas</div>
+      <div class="card">Arte digital para redes sociales</div>
+      <div class="card">Retratos en técnica tradicional</div>
+    </div>
+  </section>
+
+  <!-- ===== Proyectos ===== -->
+  <section id="projects">
+    <h2>Proyectos</h2>
+    <div class="projects">
+      <div class="card">Proyecto 1</div>
+      <div class="card">Proyecto 2</div>
+      <div class="card">Proyecto 3</div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>© 2025 - Mi Portafolio de Ilustración Digital</p>
+  </footer>
+</body>
+</html>
