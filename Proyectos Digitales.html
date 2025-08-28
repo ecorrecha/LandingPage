@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+    /* ===== Reset ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #0e0e0e;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: #111;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    /* ===== Hero ===== */
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #a259ff;
+      margin-bottom: 20px;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #ccc;
+      max-width: 600px;
+    }
+
+    
+    /* ===== Secciones ===== */
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #a259ff;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+
+    .skills, .services, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1b1b1b;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      background: #272727;
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    </style>
+</head>
+<body>
+     <header>
+    <h1>Mi Portafolio</h1>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="/Identidades Visuales.html">Identidades Visuales</a></li>
+        <li><a href="/Partidos.html">Partidos</a></li>
+        <li><a href="/Proyectos en Tradicional.html">Proyectos en Tradicional</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <img src="ProfileImage.jpeg">
+    <h2>Proyectos Digitales</h2>
+    <p>Aqui encontrarás diferentes proyectos que se han desarrollado en el medio digital.</p>
+  </section>
+
+  <section id="proyectos" style="padding:60px 20px; max-width:1000px; margin:auto;">
+  <h2 style="text-align:center; color:#a259ff; margin-bottom:30px; font-size:2rem;">Mis Proyectos</h2>
+
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:20px;">
+    
+    <!-- Proyecto 1 -->
+    <div style="background:#1b1b1b; border-radius:12px; padding:15px; text-align:center; transition:0.3s;">
+      <img src="proyecto1.jpg" alt="Proyecto 1" style="width:100%; border-radius:8px; margin-bottom:10px;">
+      <h3 style="color:#fff;">Proyecto 1</h3>
+      <p style="color:#ccc; font-size:0.9rem;">Ilustración digital inspirada en la naturaleza.</p>
+    </div>
+
+    <!-- Proyecto 2 -->
+    <div style="background:#1b1b1b; border-radius:12px; padding:15px; text-align:center; transition:0.3s;">
+      <img src="proyecto2.jpg" alt="Proyecto 2" style="width:100%; border-radius:8px; margin-bottom:10px;">
+      <h3 style="color:#fff;">Proyecto 2</h3>
+      <p style="color:#ccc; font-size:0.9rem;">Diseño conceptual con estilo retro y geométrico.</p>
+    </div>
+
+    <!-- Proyecto 3 -->
+    <div style="background:#1b1b1b; border-radius:12px; padding:15px; text-align:center; transition:0.3s;">
+      <img src="proyecto3.jpg" alt="Proyecto 3" style="width:100%; border-radius:8px; margin-bottom:10px;">
+      <h3 style="color:#fff;">Proyecto 3</h3>
+      <p style="color:#ccc; font-size:0.9rem;">Retrato digital con técnicas de sombreado.</p>
+    </div>
+
+  </div>
+</section>
+
+
+    
+</body>
+</html>>
+ 
